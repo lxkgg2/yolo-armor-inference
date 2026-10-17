@@ -1,0 +1,10 @@
+# 装甲板视频推理依赖
+# 建议使用 Python 3.10 - 3.12；本作业在 Python 3.13 下亦可运行
+ultralytics>=8.3.0
+opencv-python>=4.9.0
+numpy>=1.24.0
+
+# torch 会作为 ultralytics 的依赖自动安装（默认 CPU 版）。
+# 如需使用 GPU，请按 PyTorch 官方指引安装对应 CUDA 版本，例如：
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# 然后在运行时使用 --device 0 指定 GPU。

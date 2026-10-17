@@ -1,0 +1,33 @@
+# ========== 模型权重 ==========
+# 课程指定模型 best.pt（从参考材料下载后放到 weights/ 目录）
+weights/
+*.pt
+
+# ========== 视频素材与推理结果 ==========
+videos/
+results/
+frames/
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# ========== 本地临时脚本输出 ==========
+model_info.txt
+test_out.txt
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# ========== 编辑器 / 系统 ==========
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
